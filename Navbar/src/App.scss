@@ -1,0 +1,18 @@
+$primary-colour: #001953;
+
+@import 'animate.css';
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./assets/HelveticaNeue.ttf') format('ttf');
+}
+
+input,
+textarea{
+  font-family: 'Helvetica';
+}
+
+body{
+  background: $primary-colour;
+}
