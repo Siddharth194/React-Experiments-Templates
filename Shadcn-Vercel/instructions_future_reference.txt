@@ -1,0 +1,8 @@
+vercel supports Next.js:
+
+npx create-next-app@latest --typescript --tailwind --eslint
+npx shadcn-ui@latest init
+
+to add components to components/ui to work with in vercel:
+
+npx shadcn-ui@latest add button
